@@ -1,12 +1,11 @@
 /*
-  Buscando Elemento (Nível Intermediário a Difícil)
-Agora, vamos para o terceiro exercício, que exige um pouco mais de raciocínio.
+  Buscando Elemento
 
-Objetivo: Crie uma função chamada encontrarNumero que
-recebe um ponteiro para o início de um array de inteiros, o
-tamanho do array e o número a ser buscado. A função deve retornar
-um ponteiro para a primeira ocorrência do número no
-array. Se o número não for encontrado, a função deve retornar NULL.
+Objetivo: Crie uma funÃ§Ã£o chamada encontrarNumero que
+recebe um ponteiro para o inÃ­cio de um array de inteiros, o
+tamanho do array e o nÃºmero a ser buscado. A funÃ§Ã£o deve retornar
+um ponteiro para a primeira ocorrÃªncia do nÃºmero no
+array. Se o nÃºmero nÃ£o for encontrado, a funÃ§Ã£o deve retornar NULL.
 */
 
 #include <stdio.h>
@@ -56,7 +55,7 @@ int* EncontrarNumero(int *vet, int tamanho, int num)
 {
     for(int i=0;i<tamanho; i++){
         if(*(vet+i) == num)
-            return (vet+i); //Para o código mediante ao primeiro numero igual
+            return (vet+i); //Para o cÃ³digo mediante ao primeiro numero igual
         }
         return NULL;
 }
