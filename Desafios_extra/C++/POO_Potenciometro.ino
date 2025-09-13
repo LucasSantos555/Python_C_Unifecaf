@@ -1,5 +1,4 @@
-//==========================================
-//    Mapeamento de hardware
+
 
 class led{
   public: 
